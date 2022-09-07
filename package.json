@@ -13,7 +13,7 @@
   "author": "",
   "license": "MIT",
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "devDependencies": {
     "jest": "^29.0.1"
