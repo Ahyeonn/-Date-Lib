@@ -1,7 +1,7 @@
 {
   "name": "@ahyeonn/date-lib",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Javsacript Library for Date functions",
   "main": "src/index.js",
   "directories": {
     "test": "tests"
