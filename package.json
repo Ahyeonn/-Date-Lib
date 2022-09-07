@@ -1,6 +1,6 @@
 {
   "name": "@ahyeonn/date-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Javsacript Library for Date functions",
   "main": "src/index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^29.0.1"
   }
