@@ -1,6 +1,6 @@
 {
   "name": "@ahyeonn/date-lib",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Javsacript Library for Date functions",
   "main": "src/index.js",
   "directories": {
@@ -14,7 +14,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ahyeonn/Date-Lib"
   },
   "devDependencies": {
     "jest": "^29.0.1"
