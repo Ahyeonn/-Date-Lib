@@ -77,13 +77,13 @@ test('D.When(1997, 9, 30, 3, 4, 5)', () => {
 test('D.When(2022, 8, 30)', () => {
     const date = new Date(2022, 8, 30)
     const newDate = new D(date)
-    expect(newDate.when()).toBe( 'The date is 27 days from now on.' )
+    expect(newDate.when()).toBe( 'The date is 2 days from now on.' )
 })
 
 test('D.When(2022, 8, 1)', () => {
     const date = new Date(2022, 8, 1)
     const newDate = new D(date)
-    expect(newDate.when()).toBe( 'The date is 2 days ago.' )
+    expect(newDate.when()).toBe( 'The date is 27 days ago.' )
 })
 
 test('D.When(2022, 6, 30)', () => {
