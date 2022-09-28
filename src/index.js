@@ -7,16 +7,18 @@ const shortDays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat'];
  * @param {Number} date
  * @returns {String} '0 + Date'
  */
+
 function datePadded(date) {
   // eslint-disable-next-line no-shadow
   let datePadded = date;
 
-  if (datePadded === date && date < 10) {
+  if (date < 10) {
     datePadded = `0${datePadded}`;
   }
   return datePadded;
 }
-
+console.log(datePadded(5))
+console.log(datePadded(15))
 /**
  * if 'hour' is less than 10, add 0 in front then return
  * @param {Number} hours

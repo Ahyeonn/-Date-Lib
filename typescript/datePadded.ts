@@ -3,6 +3,9 @@ function datePadded(date: number): string {
     if (date < 10) {
         strDate = `0${date}`
     }
+    else {
+        strDate = date.toString()
+    }
     return strDate
 }        
 

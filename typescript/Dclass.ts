@@ -1,9 +1,9 @@
-import {months, shortMonths, days, shortDays} from './dateVars.js'
-import {datePadded} from './datePadded.js'
+import {months, shortMonths, days, shortDays} from './dateVars'
+import {datePadded} from './datePadded'
 import {hoursPadded} from './hoursPadded'
-import {dateSuffix} from './dateSuffix.js'
-import {minutesPadded} from './minutesPadded.js'
-import {secondsPadded} from './secondsPadded.js'
+import {dateSuffix} from './dateSuffix'
+import {minutesPadded} from './minutesPadded'
+import {secondsPadded} from './secondsPadded'
 
 
 class D {

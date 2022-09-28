@@ -5,6 +5,9 @@ function minutesPadded(mins: number): string {
     if (mins < 10) {
         strMins = `0${mins}`
     }
+    else {
+        strMins = mins.toString()
+    }
     return strMins
 }
 
