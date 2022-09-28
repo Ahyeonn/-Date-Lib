@@ -294,6 +294,4 @@ class D {
   }
 }
 
-// const d = new D(2019, 9, 10, 3, 4, 5)
-// console.log(d.when())
-export default D;
+module.exports = D;
